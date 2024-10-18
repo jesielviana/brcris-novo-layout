@@ -114,14 +114,14 @@ article.property ul.property-list {
   margin-bottom: 0;
 }
 
-article span:after,
-article a:after {
+article div span:after,
+article div a:after {
   content: ", ";
   /* margin-left: -3px; */
 }
 
-article span:last-child:after,
-article a:last-child:after {
+article div span:last-child:after,
+article div a:last-child:after {
   content: "";
 }
 
